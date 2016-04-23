@@ -1,0 +1,252 @@
+@media (min-width:320px){
+	body {
+		width: 320px;
+		margin:0 auto;
+	}
+	.oil_paintings {
+		height: 25px;
+		background: #211f1f;
+		color: #ffffff;
+		text-align: center;
+		font-size: 10px;
+		line-height: 23px;
+	}
+	.petro_i_vasil {
+		height: 186px;
+		background: url(../images/bg320.jpg);
+		font-size: 21px;
+		font-family: 'Roboto', sans-serif;
+	}
+	.p_i_v {
+			padding-top: 73px;
+			padding-left: 30px;
+			display: block;
+			float: left;
+	}
+	.svalyavchyk {
+		font-size: 26px;
+	}
+
+	.language a{
+		text-decoration: none;
+		color: #211f1f;
+	}
+	.language {
+		padding-top: 91px;
+		float: right;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bolder;
+		font-size: 14px;
+		margin-right: 31px;
+
+	}
+	.language a > .active {
+		color: #f1665c;
+	}
+	.person {
+		font-size: 18px;
+		line-height: 21px;
+		margin-top: 12px;
+		margin-left: 31px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
+		float: left;
+
+	}
+	.person > a {
+		color: #a8a7a7;
+		text-decoration: none;
+	}
+	.person > .active {
+		color: #000100;
+	}
+	.zamovutu {
+		font-family: 'Roboto', sans-serif;
+		float: right;
+		width: 108px;
+		height: 28px;
+		display: block;
+		border: 2px solid black;
+		font-size: 10px;
+		color: #f1665c;
+		text-align: center;
+		text-decoration: none;
+		line-height: 27px;
+		text-transform: uppercase;
+		margin-top: 23px;
+		margin-right: 27px;
+	}
+	.content h2{
+		font-family: 'Roboto', sans-serif;
+		margin: 16px 0px 0px 0px;
+		font-weight: lighter;
+		font-size: 13px;
+		color: #000000;
+		text-transform: uppercase;
+
+	}
+	.content {
+		text-align: center;
+		margin-top: 31px;	
+		width: 266px;
+	    margin: 0 auto;
+	}
+	.content > .image {
+		margin: 0 auto;
+		width: 26px;
+		height: 25px;
+		/*background: url(../images/gallery.jpg);*/
+	}
+	.gallery {
+		width: 266px;
+		margin: 34px  auto 0px auto;
+		/*margin-top: 34px;*/
+	}
+	/*.gallery_item:nth-child(2n+1) {
+		margin-right: 19px;
+	}*/
+
+	.gallery_item {
+		width: 121px;
+		float: left;
+		margin-bottom: 36px;
+	}
+	.ramka {
+		width: 120px;
+		height: 154px;
+		background: url(../images/ramka.png) no-repeat;
+	    padding-top: 13px;
+	}
+	.gallery_image img {
+	  position: relative;
+	  top: 50%;
+	  transform: translateY(-50%);
+	}
+	.gallery_image {
+		width: 96px;
+		height: 129px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.details {
+		font-size: 10px;
+		color: #4a4a4c;
+		text-align: left;
+	}
+	.btn_order{
+		text-decoration: none;
+		width: 58px;
+		height: 15px;
+		background: url(../images/btn320.png) no-repeat;
+		font-size: 10px;
+		display: block;
+		/*margin: 0 auto;*/
+		color: #ffffff;
+		line-height: 15px;
+	}
+
+	.workshop {
+		width: 266px;
+		margin: 34px  auto 0px auto;
+	}
+	.ws_item:nth-child(2n+1) {
+		float: right;
+	}
+	.workshop h2 {
+		font-family: 'Roboto', sans-serif;
+		margin-top: 0px;
+	    margin-bottom: 33px;
+	    padding: 0px;
+	    font-weight: lighter;
+	    font-size: 13px;
+	    color: #000000;
+	    text-transform: uppercase;
+	    text-align: center;
+	}
+	/*.ws_item:nth-child(2n+1) {
+		margin-right: 18px;
+	}*/
+	.ws_item {
+		width: 124px;
+		height: 124px;
+		float: left;
+		margin-bottom: 12px;
+	} 
+	.contacts {
+		width: 266px;
+		margin: 33px auto 0 auto;
+	}
+	.phone{
+		margin-bottom: 29px;
+	}
+	.phone,
+	.address {
+		width: 150px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		float: left;
+	}
+
+	.social {
+		width: 30px;
+		float: right;
+	}
+	.facebook,
+	.vk {
+		width: 30px;
+		height: 30px;
+		display: block;
+	}
+	.facebook{
+		margin-bottom: 33px;
+		background: url(../images/facebook.png)no-repeat;
+	}.vk{
+		background: url(../images/vk.png)no-repeat;
+	}
+
+	footer {
+		margin-bottom: 33px;
+	}
+	.menu,
+	.about,
+	.painting_styles,
+	.orange_line,
+	.black_line {
+		display: none;
+	}
+	.ws_item img{
+		width: 124px;
+		height: 124px;
+	}
+
+	.about_v {
+		display: none;
+	}
+
+
+
+
+
+	.gallery_item:nth-child(2n+2) {
+		float: right;
+	}
+
+
+
+
+	/*clearfix*/
+		.clearfix:after {
+		     visibility: hidden;
+		     display: block;
+		     font-size: 0;
+		     content: " ";
+		     clear: both;
+		     height: 0;
+		     }
+		.clearfix { display: inline-block; }
+		* html .clearfix { height: 1%; }
+		.clearfix { display: block; }
+	/*clearfix*/
+
+
+}

@@ -1,0 +1,391 @@
+	@media (min-width: 768px){
+	body {
+		width: 768px;
+		margin:0 auto;
+		/*background: red;*/
+	}
+	.oil_paintings {
+		height: 31px;
+		background: #211f1f;
+		color: #ffffff;
+		text-align: center;
+		font-size: 16px;
+		line-height: 30px;
+		letter-spacing: 5px;
+	}
+	.petro_i_vasil {
+		height: 231px;
+		background: url(../images/bg768.jpg);
+		font-size: 27px;
+		font-family: 'Roboto', sans-serif;
+	}
+	.p_i_v {
+			padding-top: 75px;
+			padding-left: 30px;
+			display: block;
+			float: left;
+	}
+	.svalyavchyk {
+		font-size: 34px;
+	}
+	.language {
+		padding-top: 118px;
+		float: right;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bolder;
+		font-size: 20px;
+		margin-right: 68px;
+
+	}
+	.language > .active {
+		color: #f1665c;
+	}
+	.person {
+		font-size: 23px;
+		line-height: 28px;
+		margin-top: 26px;
+		margin-left: 31px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
+		float: left;
+
+	}
+	.person > a {
+		color: #a8a7a7;
+		text-decoration: none;
+	}
+	.person > .active {
+		color: #000100;
+	}
+	.zamovutu {
+		display: none;
+	/*	font-family: 'Roboto', sans-serif;
+		float: right;
+		width: 108px;
+		height: 28px;
+		display: block;
+		border: 2px solid black;
+		font-size: 10px;
+		color: #f1665c;
+		text-align: center;
+		text-decoration: none;
+		line-height: 27px;
+		text-transform: uppercase;
+		margin-top: 23px;
+		margin-right: 27px;*/
+	}
+	.content h2{
+		font-family: 'Roboto', sans-serif;
+		margin: 16px 0px 0px 0px;
+		font-size: 21px;
+		line-height: 25px;
+		color: #000000;
+		font-weight: lighter;
+		text-transform: uppercase;
+		margin: 25px 0 0 0;
+		margin-top: 25px;
+
+	}
+	.content {
+		text-align: center;
+		/*margin-top: 31px;*/
+	}
+	.content > .image {
+		margin: 0 auto;
+		width: 26px;
+		height: 36px;
+		/*background: url(../images/gallery.jpg);*/
+	}
+	.gallery {
+		width: 630px;
+		margin: 34px  auto 0px auto;
+		/*margin-top: 34px;*/
+	}
+	.gallery_item:nth-child(3n+3) {
+		margin-right: 0px;
+	}
+
+	.gallery_item {
+		margin-right: 52px;
+		width: 173px;
+		float: left;
+		margin-bottom: 36px;
+	}
+	.ramka {
+		width: 173px;
+		height: 225px;
+		background: url(../images/ramka768.png) no-repeat;
+	    padding-top: 13px;
+	}
+	.gallery_image img {
+	  position: relative;
+	  top: 50%;
+	  transform: translateY(-50%);
+	}
+	.gallery_image {
+		width: 140px;
+		height: 200px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.details {
+		font-size: 12px;
+		color: #4a4a4c;
+		text-align: left;
+	}
+	.btn_order{
+		text-decoration: none;
+	    width: 76px;
+	    height: 20px;
+		background: url(../images/btn768.jpg) no-repeat;
+		font-size: 12px;
+		display: block;
+		/*margin: 0 auto;*/
+		color: #ffffff;
+		line-height: 19px;
+	}
+
+	.workshop {
+		width: 630px;
+		margin: 34px  auto 0px auto;
+
+	}
+	.ws_item:nth-child(2n+1) {
+		float: left;
+	}.ws_item:nth-child(3n+2) {
+		margin-right: 0px;
+	}
+	.ws_item {
+		width: 203px;
+		height: 203px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 12px;
+	} 
+	.contacts {
+		width: 630px;
+		margin: 33px auto 0 auto;
+	}
+	.phone{
+		margin-bottom: 29px;
+	}
+	.phone,
+	.address {
+		width: 185px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		/*float: left;*/
+	}
+
+	.social {
+		width: 290px;
+		height: 50px;
+		padding-top: 15px;
+		display: -webkit-inline-box;
+		text-align: left;
+		float: right;
+		display: block;
+	}
+	.socia a {
+		/*display: block;*/
+		float: left;
+	}
+
+	.facebook,
+	.vk,
+	.skype,
+	.googleplus {
+		width: 30px;
+		height: 30px;
+		display: block;
+		float: left;
+		/*float: left;*/
+	}
+	.linkedin{
+		display: none;
+	}
+	.facebook{
+		margin-right: 50px;
+		background: url(../images/social768/facebook.png)no-repeat;
+	}
+	.vk{
+		margin-top: 4px;
+		margin-right: 62px;
+		background: url(../images/social768/vk.png)no-repeat;
+	}
+
+	.linkedin{
+		margin-top: 2px;
+		margin-right: 58px;
+		background: url(../images/social768/linkedin.png)no-repeat;
+	}
+
+	.skype{
+		background: url(../images/social768/skype.png)no-repeat;
+	}
+
+	.googleplus{
+		margin-right: 58px;
+		background: url(../images/social768/gplus.png)no-repeat;
+	}
+
+	footer {
+		margin-bottom: 33px;
+	}
+
+	.menu {
+		margin-right: 17px;
+		padding-top: 34px;
+		float: right;
+		display: block;
+
+	}
+	.about_v {
+		display: none;
+	}
+	.menu a {
+		font-size: 21px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
+		text-decoration: none;
+		color: #060203;
+		margin-right: 53px;
+		padding: 0px;
+	}
+
+	.orange_line {
+		margin-top: 53px;
+		margin-bottom: 31px;
+		height: 1px;
+		background: #f69c83;
+	}
+	.order_work {
+		margin: 0 auto;
+		width: 601px;
+		height: 401px;
+		position: relative;
+		background: url(../images/photo1.jpg);
+	}
+	.order a{
+		text-decoration: none;
+	}
+	.order {
+
+		width: 334px;
+		height: 127px;
+		margin: 0 auto;
+		display: block;
+		text-decoration: none;
+		background-color: rgba(255, 255, 255, 0.8);
+		  position: relative;
+	  top: 50%;
+	  transform: translateY(-50%);
+	}
+	.order h3 {
+		font-family: 'Roboto', sans-serif;
+		font-size: 17px;
+		color: #f26f4b;
+		padding-top: 54px;
+	}
+
+	.v_svalavchik {
+		font-family: 'Roboto', sans-serif;
+		font-size: 40px;
+		display: block;
+		bottom: 40px;
+		left: 50px;
+		position: absolute;
+		text-decoration: none;
+		color: #060203;
+	}
+	.painting_styles a:nth-child(2n+1){
+		padding-top: 7px;
+
+	}
+
+	.painting_styles {
+		margin-top: 23px;
+		margin-bottom: 29px;
+	    width: 100%;
+	    display: block;
+	 }
+	.styles{
+		font-size: 14px;
+		line-height: 12px;
+		float: left;
+	    display: inline-block;
+	    text-decoration: none;
+		color: #a0a0a1;
+	    width: 33.3%;
+	}
+	.selected {
+	 	color: #060203;
+	 }
+
+	.black_line {
+		width: 100%;
+		height: 9px;
+		background: #060203;
+	}
+
+
+
+
+	.zamovutu_img {
+		width: 24px;
+		height: 37px;
+		margin: 0 auto;
+		background: url(../images/gallery768.png)no-repeat;
+		display: block;
+	}
+
+	.gallery_img{
+	    width: 26px;
+	    height: 26px;
+	    margin: 0 auto;
+		background: url(../images/gallery_img768.png)no-repeat;
+		display: block;
+	}
+	.majternja_img{
+	    width: 19px;
+	    height: 27px;
+		margin: 0 auto;
+		background: url(../images/majternja768.png)no-repeat;
+		display: block;
+	}
+	.about {
+		display: block;
+	}
+
+
+
+	.orange_line {
+		display: block;
+	}
+
+
+
+	/*clearfix*/
+		.clearfix:after {
+		     visibility: hidden;
+		     display: block;
+		     font-size: 0;
+		     content: " ";
+		     clear: both;
+		     height: 0;
+		     }
+	.gallery_item:nth-child(2n+2) {
+		float: left;
+	}
+	.content {
+			width: 768px;
+	}
+	.ws_item img {
+		width: 203px;
+		height: 203px;
+	}
+		.clearfix { display: inline-block; }
+		* html .clearfix { height: 1%; }
+		.clearfix { display: block; }
+	/*clearfix*/
+}

@@ -1,0 +1,344 @@
+@media (min-width: 1200px){
+	body {
+		width: 1200px;
+	}
+	.about	{
+		display: block;
+	}
+	.size {
+		width: 780px;
+		margin: 0 auto;
+	}
+	.order_work {
+		width: 780px;
+	    margin: 0 auto;
+	    height: 524px;
+	    position: relative;
+	    background: url(../images/photo1200.jpg);
+	}
+	.order a{
+		text-decoration: none;
+	}
+	.order {
+
+		width: 334px;
+		height: 127px;
+		margin: 0 auto;
+		display: block;
+		text-decoration: none;
+		background-color: rgba(255, 255, 255, 0.8);
+		  position: relative;
+	  top: 50%;
+	  transform: translateY(-50%);
+	}
+	.order h3 {
+		font-size: 20px;
+		/*padding-top: 47px;*/
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
+		/*font-size: 17px;*/
+		color: #f26f4b;
+		padding-top: 54px;
+	}
+	.v_svalavchik {
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
+		font-size: 40px;
+		display: block;
+		bottom: 40px;
+		left: 50px;
+		position: absolute;
+		text-decoration: none;
+		color: #060203;
+	}
+
+	.menu {
+	    margin-right: 0px;
+	    float: right;
+	    display: block;
+	    margin-top: 17px;
+	}
+
+	.menu a {
+		font-size: 26px;
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
+		text-decoration: none;
+		color: #060203;
+		margin-right: 53px;
+		padding: 0px;
+	}
+		.menu a:last-child {
+		margin-right: 0px;
+	}
+	.painting_styles{
+		width: 780px;
+		margin: 23px auto 29px auto;
+	/*	margin-top: 23px;
+		margin-bottom: 29px;*/
+		display: block;
+	}
+	.painting_styles a:nth-child(2n+1){
+		padding-top: 7px;
+
+	}
+	.styles{
+		font-size: 19px;
+		line-height: 22px;
+		float: left;
+	    display: inline-block;
+	    text-decoration: none;
+		color: #a0a0a1;
+	    width: 33.3%;
+	}
+	.zamovutu {
+	/*	background: url(../images/zamovutu1200.png);
+		width: 24px;
+		height: 37px;*/
+		display: none;
+	}
+	.zamovutu_img {
+		width: 24px;
+		height: 37px;
+		margin: 0 auto;
+		background: url(../images/zamovutu1200.png)no-repeat;
+		display: block;
+	}
+
+	.gallery_img{
+		width: 39px;
+		height: 37px;
+		margin: 0 auto;
+		background: url(../images/gallery1200.png)no-repeat;
+		display: block;
+	}
+	.majternja_img{
+		width: 39px;
+		height: 37px;
+		margin: 0 auto;
+		background: url(../images/majternja1200.jpg)no-repeat;
+		display: block;
+	}
+
+	.gallery {
+		width: 780px;
+		margin: 34px  auto 0px auto;
+		/*margin-top: 34px;*/
+	}
+
+
+
+	.gallery_item {
+		margin-right: 48px;
+		width: 228px;
+		float: left;
+		margin-bottom: 36px;
+	}
+	.gallery_item:nth-child(3n+3){
+		margin-right: 0px;
+	}
+
+	.ramka {
+		width: 228px;
+		height: 290px;
+		background: url(../images/ramka1200.png) no-repeat;
+	    padding-top: 13px;
+	}
+	.gallery_image img {
+	  position: relative;
+	  top: 50%;
+	  transform: translateY(-50%);
+	}
+	.gallery_image {
+		width: 205px;
+		height: 269px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.details {
+		font-size: 12px;
+		color: #4a4a4c;
+		text-align: left;
+	}
+	.btn_order{
+		text-decoration: none;
+	    width: 131px;
+	    height: 35px;
+		background: url(../images/btn1200.png) no-repeat;
+		font-size: 20px;
+		display: block;
+		/*margin: 0 auto;*/
+		color: #ffffff;
+		line-height: 30px;
+	}
+
+	.workshop {
+		width: 780px;
+		margin: 34px  auto 0px auto;
+
+	}
+	/*.ws_item:nth-child(3n+3) {
+		margin-right: 0px;
+	}*/
+	.ws_item {
+		width: 253px;
+		height: 253px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 12px;
+	} 
+	.oil_paintings {
+		height: 31px;
+		/*background: #211f1f;*/
+		/*color: #ffffff;*/
+		/*text-align: center;*/
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
+		font-size: 21px;
+		line-height: 30px;
+		letter-spacing: 5px;
+	}
+	.orange_line {
+		margin-top: 53px;
+		margin-bottom: 31px;
+		height: 1px;
+		background: #f69c83;
+		display: block;
+	}
+	.petro_i_vasil {
+		height: 342px;
+		font-size: 40px;
+		background: url(../images/bg1200.jpg);
+	}
+	.svalyavchyk {
+		font-size: 50px;
+	}
+	.language {
+		margin-top: 155px;
+		padding: 0px;
+		font-size: 31px;
+		margin-right: 0px;
+	}
+	.person {
+		font-size: 28px;
+		line-height: 34px;
+		margin-top: 33px;
+		margin-left: 0px;
+	}
+	.content h2 {
+		font-size: 21px;
+		line-height: 25px;
+	}
+
+	.left{
+		text-align: left;
+	}
+	.right {
+		text-align: right;
+	}
+
+
+	/*.gallery_item:nth-child(3n+3) {
+		margin-right: 0px;
+	}*/
+
+	.ws_item img{
+		width: 251px;
+		height: 251px;
+	}
+
+
+	.contacts {
+		width: 780px;
+		margin: 135px auto 0 auto;
+	}
+	.phone{
+		margin-bottom: 29px;
+	}
+	.phone,
+	.address {
+		width: 150px;
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		/*float: left;*/
+	}
+	.address {
+		float: none;
+	}
+
+	.social {
+		width: 453px;
+		float: right;
+		padding-top: 15px;
+		display:block;
+	}
+	.facebook,
+	.vk,
+	.linkedin,
+	.skype,
+	.googleplus {
+		width: 30px;
+		height: 30px;
+		display: block;
+	}
+	.linkedin{
+		display: none;
+	}
+	.facebook{
+		width: 19px;
+		height: 36px;
+		margin-right: 110px;
+		background: url(../images/social1200/facebook.png)no-repeat;
+	}
+	.vk{
+		width: 41px;
+		height: 36px;
+		margin-top: 4px;
+		margin-right: 103px;
+		background: url(../images/social1200/vk.png)no-repeat;
+	}
+
+/*	.linkedin{
+		margin-top: 2px;
+		margin-right: 58px;
+		background: url(../images/social1200/linkedin.png)no-repeat;
+	}
+*/
+	.skype{
+		width: 41px;
+		height: 36px;
+		background: url(../images/social1200/skype.png)no-repeat;
+	}
+
+	.googleplus{
+		width: 41px;
+		height: 36px;
+		margin-right: 98px;
+		background: url(../images/social1200/gplus.png)no-repeat;
+	}
+	.phone, .address {
+		font-size: 16px;
+		width: 234px;
+	}
+	.p_i_v {
+		padding-top: 121px;
+		padding-left: 0px;
+	}
+	.selected {
+	 	color: #060203;
+	 }
+
+	 .about_v {
+	 	width: 780px;
+	 	margin: 0 auto;
+	 	text-align: left;
+	 	/*font-family: 'Lato', sans-serif;*/
+	 	font-family: 'Roboto', sans-serif;
+	 	font-weight: 300;
+	 	font-size: 21px;
+	 	color: #151415;
+	 	display: block;
+	 }
+}
